@@ -126,8 +126,10 @@ Rispondi direttamente alla persona.
             }
         ],
 
-        max_tokens=120,
-        temperature=1.0
+        max_completion_tokens=512,
+        temperature=0.7,
+        reasoning_effort="low",
+        include_reasoning=False
     )
 
 
